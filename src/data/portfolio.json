@@ -1,0 +1,157 @@
+{
+  "profile": {
+    "name": "Yassin Assadiki",
+    "title": "Senior Front-End Developer | Full-Stack Developer in Progress",
+    "bio": "Experienced web developer with over 8 years of success in designing and implementing scalable, high-performance web applications. Proficient in modern front-end technologies like React, Redux, RTK Query, and TypeScript. Currently expanding into full-stack development using NestJS. Passionate about building efficient, user-centric digital solutions in collaborative and agile environments.",
+    "location": {
+      "address": "27t Chemin de l'olivet",
+      "postalCode": "06110",
+      "city": "Le Cannet",
+      "countryCode": "FR",
+      "region": "Alpes-Maritimes"
+    },
+    "email": "assadikiyassin@pm.me",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/yassin-assadiki-5245a8293",
+      "github": "https://github.com/yavanha",
+      "frontendMentor": "https://www.frontendmentor.io/profile/Yavanha",
+      "freeCodeCamp": "https://www.freecodecamp.org/y4rb0w"
+    }
+  },
+  "skills": [
+    {
+      "name": "Front-End Development",
+      "icon": "Code",
+      "items": [
+        "React",
+        "Redux",
+        "RTK Query",
+        "TanStack Query",
+        "TypeScript",
+        "Material-UI",
+        "Next.js",
+        "VueJS",
+        "Vuetify"
+      ]
+    },
+    {
+      "name": "Back-End Development",
+      "icon": "Server",
+      "items": ["NestJS", "CQRS", "Domain-Driven Design", "Node.js", "TypeORM"]
+    },
+    {
+      "name": "Testing & Automation",
+      "icon": "TestTube",
+      "items": ["Jest", "Selenium", "Cypress", "Karma", "Jasmine"]
+    },
+    {
+      "name": "Tools & DevOps",
+      "icon": "Tool",
+      "items": ["Git", "Docker", "CI/CD", "GitHub Actions", "Jira", "Trello"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Randstad Digital France (STMicroelectronics)",
+      "position": "Senior Full-Stack Developer",
+      "period": "March 2023 - Present",
+      "description": "Contributing to the development of an innovative SoC configuration platform using Theia IDE, React, Material-UI, and NestJS. Collaborating on solutions with CQRS, Domain-Driven Design, and TypeScript.",
+      "highlights": [
+        "Developing a cutting-edge software platform for configuring SoCs",
+        "Using modern front-end technologies: React, Material-UI, TypeScript",
+        "Building scalable back-end services with NestJS and CQRS",
+        "Collaborating with cross-functional teams to optimize system performance",
+        "Ensuring agile best practices and continuous improvement"
+      ]
+    },
+    {
+      "company": "AISA ONG Internationale",
+      "position": "Front-End Developer",
+      "period": "September 2022 - February 2023",
+      "description": "Developed an educational website for the Culture of Peace, utilizing a JSON-based content structure supporting multi-language content management.",
+      "highlights": [
+        "Designed a structured JSON-driven content system",
+        "Implemented a multi-language content strategy",
+        "Ensured high modularity and maintainability"
+      ]
+    },
+
+    {
+      "company": "Adlania Foundation, Switzerland",
+      "position": "Web Server & Database Manager",
+      "period": "September 2020 - September 2022",
+      "description": "Managed the deployment and optimization of web applications and databases, ensuring performance and uptime.",
+      "highlights": [
+        "Optimized database performance and data integrity",
+        "Improved server management and application uptime"
+      ]
+    },
+    {
+      "company": "Khaled Bentounes, Le Bar su Loup, Cannes, France",
+      "position": "Front-End Developer (JavaScript)",
+      "period": "September 2020 - August 2022",
+      "description": "• Developed an immersive, interactive 3D timeline to represent the life events of a historical personality using ThreeJS and vis.js.\n• Crafted dynamic animations with GreenSock and managed date-time functionalities with Day.js to create a rich, engaging user experience.",
+      "highlights": [
+        "Developed an interactive 3D timeline using ThreeJS and vis.js",
+        "Crafted dynamic animations with GreenSock",
+        "Managed date-time functionalities with Day.js"
+      ]
+    },
+    {
+      "company": "Adlania Foundation, Switzerland",
+      "position": "Front-End Developer (VueJS & Vuetify)",
+      "period": "February 2019 - August 2020",
+      "description": "• Led front-end development by designing a custom project architecture from scratch using VueJS, Vuetify, and TypeScript.\n• Enhanced workflows and collaboration by utilizing Git and Sourcetree, supporting over 450 users worldwide in historical data collection.",
+      "highlights": [
+        "Designed a custom project architecture using VueJS and Vuetify",
+        "Supported over 450 users worldwide in historical data collection",
+        "Enhanced workflows and collaboration with Git and Sourcetree"
+      ]
+    },
+
+    {
+      "company": "Sopra Steria BE",
+      "position": "Back-end Developer",
+      "period": "March 2018 - January 2019",
+
+      "description": "On mission at the Ministry of Finance (SPF) Belgium \n• Developed and maintained citizen service applications using the Hibernate Framework, ensuring robust data integrity and system reliability.",
+      "highlights": [
+        "Developed and maintained citizen service applications",
+        "Ensured robust data integrity and system reliability"
+      ]
+    },
+    {
+      "company": "Sopra Steria BE",
+      "position": "Front-End Developer (AngularJS)",
+      "period": "January 2017 - March 2018",
+
+      "description": "On a mission European Patent Office, The Hague, Netherlands : \n• Developed a comprehensive library of UI/UX components with AngularJS and Sass based on atomic design principles.\n• Conducted rigorous testing using Selenium, Karma, and Jasmine while managing projects with agile tools such as Jira and Trello.",
+      "highlights": [
+        "Developed a comprehensive library of UI/UX components with AngularJS and Sass",
+        "Conducted rigorous testing using Selenium, Karma, and Jasmine",
+        "Managed projects with agile tools such as Jira and Trello"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native",
+      "level": 100
+    },
+    {
+      "language": "English",
+      "fluency": "Professional",
+      "level": 85
+    }
+  ],
+  "education": [
+    {
+      "institution": "Haute Ecole de Bruxelles",
+      "degree": "Licence",
+      "field": "Informatique de gestion",
+      "period": "2011 - 2016"
+    }
+  ]
+}
