@@ -1,16 +1,21 @@
 {
   "profile": {
-    "name": "Yassin Assadiki",
-    "title": "Senior Front-End Developer | Full-Stack Developer in Progress",
-    "bio": "Experienced web developer with over 8 years of success in designing and implementing scalable, high-performance web applications. Proficient in modern front-end technologies like React, Redux, RTK Query, and TypeScript. Currently expanding into full-stack development using NestJS. Passionate about building efficient, user-centric digital solutions in collaborative and agile environments.",
+    "name": "Assadiki Yassin",
+    "firstName": "Yassin",
+    "lastName": "Assadiki",
+    "title": "Senior frontend Developer",
+    "bio": "Dedicated to building scalable web applications with clean code, while growing as a full-stack engineer specializing in distributed systems and cloud architecture.",
+
     "location": {
       "address": "27t Chemin de l'olivet",
       "postalCode": "06110",
       "city": "Le Cannet",
       "countryCode": "FR",
+      "country": "France",
       "region": "Alpes-Maritimes"
     },
-    "email": "assadikiyassin@pm.me",
+    "email": "contact@yassadiki.dev",
+    "website": "https://yassadiki.dev",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80",
     "socialLinks": {
       "linkedin": "https://www.linkedin.com/in/yassin-assadiki-5245a8293",
@@ -21,7 +26,7 @@
   },
   "skills": [
     {
-      "name": "Front-End Development",
+      "name": "Frontend Development",
       "icon": "Code",
       "items": [
         "React",
@@ -36,7 +41,7 @@
       ]
     },
     {
-      "name": "Back-End Development",
+      "name": "Backend Development",
       "icon": "Server",
       "items": ["NestJS", "CQRS", "Domain-Driven Design", "Node.js", "TypeORM"]
     },
@@ -53,85 +58,77 @@
   ],
   "experience": [
     {
-      "company": "Randstad Digital France (STMicroelectronics)",
+      "company": "Randstad Digital",
       "position": "Senior Full-Stack Developer",
       "period": "March 2023 - Present",
-      "description": "Contributing to the development of an innovative SoC configuration platform using Theia IDE, React, Material-UI, and NestJS. Collaborating on solutions with CQRS, Domain-Driven Design, and TypeScript.",
+      "description": "Architecting and implementing a cutting-edge SoC configuration platform using modern web technologies and best practices.",
       "highlights": [
-        "Developing a cutting-edge software platform for configuring SoCs",
-        "Using modern front-end technologies: React, Material-UI, TypeScript",
-        "Building scalable back-end services with NestJS and CQRS",
-        "Collaborating with cross-functional teams to optimize system performance",
-        "Ensuring agile best practices and continuous improvement"
-      ]
+        "Spearheading the implementation of Domain-Driven Design patterns and CQRS architecture",
+        "Leading front-end development with React and Material-UI while ensuring scalable backend solutions with NestJS",
+        "Architecting modular components within Theia IDE ecosystem"
+      ],
+      "summary": "Contributing to SoC configuration platform development using React, NestJS, and DDD principles"
     },
     {
       "company": "AISA ONG Internationale",
-      "position": "Front-End Developer",
+      "position": "Frontend Developer",
       "period": "September 2022 - February 2023",
-      "description": "Developed an educational website for the Culture of Peace, utilizing a JSON-based content structure supporting multi-language content management.",
+      "description": "Engineered a multilingual educational platform implementing an innovative JSON-based content management system.",
       "highlights": [
-        "Designed a structured JSON-driven content system",
-        "Implemented a multi-language content strategy",
-        "Ensured high modularity and maintainability"
-      ]
+        "Optimized content delivery and maintenance through structured data architecture",
+        "Implemented responsive design principles ensuring cross-platform compatibility",
+        "Designed and implemented a scalable multilingual content management system"
+      ],
+      "summary": "Developed multilingual educational platform with custom JSON-based CMS"
     },
-
     {
       "company": "Adlania Foundation, Switzerland",
-      "position": "Web Server & Database Manager",
-      "period": "September 2020 - September 2022",
-      "description": "Managed the deployment and optimization of web applications and databases, ensuring performance and uptime.",
-      "highlights": [
-        "Optimized database performance and data integrity",
-        "Improved server management and application uptime"
-      ]
-    },
-    {
-      "company": "Khaled Bentounes, Le Bar su Loup, Cannes, France",
-      "position": "Front-End Developer (JavaScript)",
+      "position": "Frontend Developer",
       "period": "September 2020 - August 2022",
-      "description": "• Developed an immersive, interactive 3D timeline to represent the life events of a historical personality using ThreeJS and vis.js.\n• Crafted dynamic animations with GreenSock and managed date-time functionalities with Day.js to create a rich, engaging user experience.",
+      "description": "Engineered an innovative 3D interactive timeline utilizing Three.js for immersive historical data visualization.",
       "highlights": [
-        "Developed an interactive 3D timeline using ThreeJS and vis.js",
-        "Crafted dynamic animations with GreenSock",
-        "Managed date-time functionalities with Day.js"
-      ]
+        "Implemented complex animations using GreenSock (GSAP) for enhanced user engagement",
+        "Integrated vis.js and day.js to create precise historical event tracking and visualization",
+        "Optimized 3D rendering performance for smooth user experience across devices"
+      ],
+      "summary": "Built interactive 3D historical timeline using Three.js and GSAP"
     },
     {
       "company": "Adlania Foundation, Switzerland",
-      "position": "Front-End Developer (VueJS & Vuetify)",
+      "position": "Frontend Developer",
       "period": "February 2019 - August 2020",
-      "description": "• Led front-end development by designing a custom project architecture from scratch using VueJS, Vuetify, and TypeScript.\n• Enhanced workflows and collaboration by utilizing Git and Sourcetree, supporting over 450 users worldwide in historical data collection.",
+      "description": "Led front-end development by architecting a custom project infrastructure using VueJS and Vuetify.",
       "highlights": [
-        "Designed a custom project architecture using VueJS and Vuetify",
-        "Supported over 450 users worldwide in historical data collection",
-        "Enhanced workflows and collaboration with Git and Sourcetree"
-      ]
+        "Designed and implemented a scalable TypeScript-based architecture",
+        "Established Git workflows and best practices for a team of developers",
+        "Successfully supported and maintained a platform serving 450+ global users"
+      ],
+      "summary": "VueJS/Vuetify TypeScript-based platform for gathering and sharing historical data."
     },
-
     {
       "company": "Sopra Steria BE",
-      "position": "Back-end Developer",
+      "position": "Backend Developer",
       "period": "March 2018 - January 2019",
-
-      "description": "On mission at the Ministry of Finance (SPF) Belgium \n• Developed and maintained citizen service applications using the Hibernate Framework, ensuring robust data integrity and system reliability.",
+      "description": "Developed citizen service applications for the Belgian Ministry of Finance (SPF).",
       "highlights": [
-        "Developed and maintained citizen service applications",
-        "Ensured robust data integrity and system reliability"
-      ]
+        "Engineered robust data persistence solutions using Hibernate Framework",
+        "Implemented secure data handling practices for sensitive government information",
+        "Maintained high-availability systems for critical public services"
+      ],
+      "summary": "Developed service applications for Belgian Ministry of Finance using Hibernate Framework."
     },
     {
       "company": "Sopra Steria BE",
-      "position": "Front-End Developer (AngularJS)",
+      "position": "Frontend Developer",
       "period": "January 2017 - March 2018",
-
-      "description": "On a mission European Patent Office, The Hague, Netherlands : \n• Developed a comprehensive library of UI/UX components with AngularJS and Sass based on atomic design principles.\n• Conducted rigorous testing using Selenium, Karma, and Jasmine while managing projects with agile tools such as Jira and Trello.",
+      "description": "Developed UI/UX components library for the European Patent Office in The Hague.",
       "highlights": [
-        "Developed a comprehensive library of UI/UX components with AngularJS and Sass",
-        "Conducted rigorous testing using Selenium, Karma, and Jasmine",
-        "Managed projects with agile tools such as Jira and Trello"
-      ]
+        "Created a comprehensive component library using AngularJS and Sass",
+        "Implemented atomic design principles for consistent UI development",
+        "Established testing protocols using Selenium, Karma, and Jasmine",
+        "Managed project workflows using Jira and Trello in an agile environment"
+      ],
+      "summary": "Built AngularJS component library for European Patent Office, implementing atomic design principles"
     }
   ],
   "languages": [
