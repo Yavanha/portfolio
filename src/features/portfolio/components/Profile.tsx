@@ -1,8 +1,8 @@
-import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, MapPin } from "lucide-react";
 import { ResumeButton } from "@/features/resume/components/ResumeButton";
 import { PortfolioService } from "@/services/portfolioService";
 import { fadeIn, staggerChildren } from "@/features/portfolio/animations";
+import { motion } from "motion/react";
 
 /**
  * Profile section showing personal information and links
@@ -68,7 +68,7 @@ export function Profile() {
           <ResumeButton />
         </motion.div>
       </div>
-      <motion.div variants={fadeIn} className="md:w-1/3">
+      {/* <motion.div variants={fadeIn} className="md:w-1/3">
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-lg opacity-50" />
           <img
@@ -77,7 +77,7 @@ export function Profile() {
             className="relative rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-white/10"
           />
         </div>
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 }

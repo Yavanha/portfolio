@@ -5,7 +5,6 @@ import {
   View,
   StyleSheet,
   Font,
-  Image,
 } from "@react-pdf/renderer";
 import { PortfolioData } from "@/domain/models/portfolio";
 import interFont from "@/features/resume/fonts/Inter-Regular.ttf";
@@ -181,9 +180,9 @@ export function PDFDocument({ portfolioData }: PDFDocumentProps) {
             <Text style={styles.title}>{profile.title}</Text>
           </View>
           <View style={styles.personalInfoRight}>
-            <View style={styles.avatarContainer}>
+            {/* <View style={styles.avatarContainer}>
               <Image src={profile.avatar} style={styles.avatar} />
-            </View>
+            </View> */}
           </View>
           <View style={styles.aboutMe}>
             <View style={styles.inline}>

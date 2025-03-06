@@ -1,10 +1,10 @@
-import { motion } from "framer-motion";
 import { PortfolioService } from "@/services/portfolioService";
 import { Profile } from "@/features/portfolio/components/Profile";
 import { Timeline } from "@/features/portfolio/components/Timeline";
 import { SkillsSection } from "@/features/portfolio/components/SkillsSection";
 import { LanguagesAndEducation } from "@/features/portfolio/components/LanguagesAndEducation";
 import { fadeIn } from "@/features/portfolio/animations";
+import { motion } from "motion/react";
 
 /**
  * Main portfolio component that composes all the sections
