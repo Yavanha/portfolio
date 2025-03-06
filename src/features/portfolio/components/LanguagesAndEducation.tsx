@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import portfolioData from "@/data/portfolio.json";
 import { fadeIn } from "@/features/portfolio/animations";
 

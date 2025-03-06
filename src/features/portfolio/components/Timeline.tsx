@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { ExternalLink, ChevronDown, Calendar } from "lucide-react";
 import dayjs from "dayjs";
 import portfolioData from "@/data/portfolio.json";

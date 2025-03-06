@@ -1,21 +1,20 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Code, Server, TestTube, Wrench } from 'lucide-react';
-import portfolioData from '@/data/portfolio.json';
-import { fadeIn, staggerChildren } from '@/features/portfolio/animations';
+import { motion } from "motion/react";
+import { Code, Server, TestTube, Wrench } from "lucide-react";
+import portfolioData from "@/data/portfolio.json";
+import { fadeIn, staggerChildren } from "@/features/portfolio/animations";
 
 const iconComponents = {
   Code,
   Server,
   TestTube,
-  Tool: Wrench
+  Tool: Wrench,
 };
 
 export function SkillsSection() {
   return (
     <section className="py-20 bg-gray-900/50">
       <div className="container mx-auto px-6">
-        <motion.h2 
+        <motion.h2
           initial={fadeIn.initial}
           whileInView={fadeIn.animate}
           viewport={{ once: true }}
@@ -23,7 +22,7 @@ export function SkillsSection() {
         >
           Skills & Expertise
         </motion.h2>
-        <motion.div 
+        <motion.div
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
@@ -31,7 +30,8 @@ export function SkillsSection() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {portfolioData.skills.map((skillGroup, index) => {
-            const Icon = iconComponents[skillGroup.icon as keyof typeof iconComponents];
+            const Icon =
+              iconComponents[skillGroup.icon as keyof typeof iconComponents];
             return (
               <motion.div
                 key={index}
