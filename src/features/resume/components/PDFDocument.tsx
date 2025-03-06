@@ -351,7 +351,6 @@ export function PDFDocument({ portfolioData }: PDFDocumentProps) {
                 >
                   {profile.email}
                 </Text>
-                <Text>{profile.location.address},</Text>
                 <Text>
                   {profile.location.city} - {profile.location.country}
                 </Text>
